@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_or Sign Up</name>
+   <tag></tag>
+   <elementGuidId>442b8a3a-4a74-43f2-8378-dc254c945aa5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='switchToRegister']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#switchToRegister</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>499db653-08f3-40e3-935f-1e411f8dd9da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>switchToRegister</value>
+      <webElementGuid>0dae9ee9-539d-4f4e-a9d4-4a9eccef3347</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-[12px] leading-[14px] cursor-pointer text-[#1B1464]/50 hover:text-[#1B1464]</value>
+      <webElementGuid>aae435c2-4978-485d-8efd-a99951ca5840</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>or Sign Up</value>
+      <webElementGuid>13701a72-4c0f-46d2-89e0-046d4bb364a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;switchToRegister&quot;)</value>
+      <webElementGuid>4f5bdeda-2605-4b62-b3ff-68ff7511f1b3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='switchToRegister']</value>
+      <webElementGuid>7d1392e1-e9d7-4531-b41f-99fcf0493ca5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dialog']/div[4]/a</value>
+      <webElementGuid>3b74b3e3-25aa-45c4-9368-dd2dcfc9ffb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'or Sign Up')]</value>
+      <webElementGuid>44af043b-66b8-4799-b2e7-fadf65383ece</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[3]/following::a[1]</value>
+      <webElementGuid>f1cc6d8f-ab8a-409c-aec7-31078907779d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unknown error'])[1]/following::a[1]</value>
+      <webElementGuid>96b6cb65-971c-455f-b9f8-18a7dcf26785</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='╳'])[3]/preceding::a[1]</value>
+      <webElementGuid>be0dfc0f-5d5b-444a-90f4-7f876bfebf5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/preceding::a[2]</value>
+      <webElementGuid>d6bd367c-bb51-4869-b493-aa2936df4a14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='or Sign Up']/parent::*</value>
+      <webElementGuid>b2ef5e8e-9af7-48e9-8b8d-670b7a28ed49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/a</value>
+      <webElementGuid>9d64bf4d-d4f3-4ca6-9f3b-4b1713d2eb0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'switchToRegister' and (text() = 'or Sign Up' or . = 'or Sign Up')]</value>
+      <webElementGuid>fa625227-55ef-4660-95d0-0423bcb97598</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -16,18 +16,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-WebUI.openBrowser(GlobalVariable.devurl)
+WebUI.callTestCase(findTestCase('Register Modal/Access Register Modal'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Landing Page/Register Modal/div_Register'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Cloudflare Access Login Page/a_Google  Wero by Wildcats'))
+WebUI.setText(findTestObject('Landing Page/Register Modal/input_Email_email'), 'faldiat' + RandomStringUtils.randomNumeric(
+        3))
 
-WebUI.setText(findTestObject('Google Login Page/input_Wildcats Cloudflare Access_identifier'), GlobalVariable.devemail)
+WebUI.sendKeys(findTestObject('Landing Page/Register Modal/input_Email_email'), '@getnada.com')
 
-WebUI.click(findTestObject('Google Login Page/span_Berikutnya_email'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Landing Page/Register Modal/input_Full name_fullName'), 'Faldi AT')
 
-WebUI.setText(findTestObject('Google Login Page/input_Terlalu sering gagal_password'), GlobalVariable.devpass)
+WebUI.setText(findTestObject('Landing Page/Register Modal/input_Username_userName'), 'FaldiAT' + RandomStringUtils.randomNumeric(
+        3))
 
-WebUI.click(findTestObject('Google Login Page/span_Berikutnya'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Landing Page/Register Modal/input_Password_password'), GlobalVariable.testingpass)
+
+WebUI.setText(findTestObject('Landing Page/Register Modal/input_Re-type Password_confirmPassword'), GlobalVariable.testingpass)
+
+WebUI.click(findTestObject('Landing Page/Register Modal/button_Sign Up'), FailureHandling.STOP_ON_FAILURE)
 

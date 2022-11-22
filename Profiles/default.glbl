@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Test123!'</initValue>
+      <initValue>'Test1234!'</initValue>
       <name>testingpass</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -17,17 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.devurl)
+WebUI.callTestCase(findTestCase('Login Modal/Access Login Modal'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Landing Page/Login Modal/div_Log in'))
 
-WebUI.click(findTestObject('Cloudflare Access Login Page/a_Google  Wero by Wildcats'))
+WebUI.setText(findTestObject('Landing Page/Login Modal/input_Email  Username_email'), GlobalVariable.devemail)
 
-WebUI.setText(findTestObject('Google Login Page/input_Wildcats Cloudflare Access_identifier'), GlobalVariable.devemail)
+WebUI.setText(findTestObject('Landing Page/Login Modal/input_Lupa password_password'), 'hehehehehehe')
 
-WebUI.click(findTestObject('Google Login Page/span_Berikutnya_email'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Google Login Page/input_Terlalu sering gagal_password'), GlobalVariable.devpass)
-
-WebUI.click(findTestObject('Google Login Page/span_Berikutnya'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Landing Page/Login Modal/button_Log in'), FailureHandling.STOP_ON_FAILURE)
 
