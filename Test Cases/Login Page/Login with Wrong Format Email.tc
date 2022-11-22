@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login with Wrong Format Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7d41ceda-2010-4ed6-a9c2-110e6202505a</testCaseGuid>
+</TestCaseEntity>

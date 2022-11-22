@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register with Wrong Username Format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc68411b-bb94-4adf-8f39-f6fc15631af7</testCaseGuid>
+</TestCaseEntity>

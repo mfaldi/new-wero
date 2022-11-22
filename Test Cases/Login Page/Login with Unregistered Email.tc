@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login with Unregistered Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e298e2df-125f-4b3a-a85f-79cfded3a95a</testCaseGuid>
+</TestCaseEntity>
